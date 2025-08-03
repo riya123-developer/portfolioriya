@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Riya sontakke| Frontend Developer Portfolio</title>
+  <meta name="description" content="Portfolio of Riya, a Frontend developer specializing in web applications and user interfaces.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header Section -->
+  <header>
+    <nav role="navigation" aria-label="Main navigation">
+      <ul>
+        <li><a href="#about-me" tabindex="0">About Me</a></li>
+        <li><a href="#projects" tabindex="0">Projects</a></li>
+        <li><a href="#skills" tabindex="0">Skills</a></li>
+        <li><a href="#contact" tabindex="0">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- About Me Section -->
+  <section id="about-me">
+    <h2>About Me</h2>
+    <p>
+      I am Riya, a passionate software developer with experience in building web applications and user interfaces. I enjoy solving complex problems and learning new technologies.
+    </p>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <article>
+      <figure>
+        <img src="riya.jpg" alt="Screenshot of Project One, a responsive web application dashboard" width="300" height="180">
+        <figcaption>Project 1: Quiz Application</figcaption>
+      </figure>
+      <h3>Project One Title</h3>
+      <p>A brief description of Project One. This project demonstrates my skills in full-stack development and responsive design.</p>
+    </article>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>C#</li>
+      <li>ASP.NET Core</li>
+      <li>JavaScript</li>
+      <li>HTML &amp; CSS</li>
+      <li>SQL</li>
+      <li>Git &amp; GitHub</li>
+      <li>Unit Testing</li>
+    </ul>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact</h2>
+    <form aria-label="Contact form">
+      <div>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required aria-required="true">
+      </div>
+      <div>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required aria-required="true">
+      </div>
+      <div>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required aria-required="true"></textarea>
+      </div>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+  <script src="script.js"></script>
+</body>
+</html>
